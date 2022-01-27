@@ -1,0 +1,28 @@
+body{
+    background-image: url(https://t3.ftcdn.net/jpg/01/24/87/96/360_F_124879604_0ojnEfmCHlbr2eqbk9XNuzgJUJ9Ovk2m.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    text-align: center;
+}
+
+.button{
+    background-color: gainsboro;
+    width: fit-content;
+    font-size: 200px;
+    border: darkblue solid 5px;
+    margin: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.button:hover{
+    background-color: darkblue;
+    border: gainsboro solid 5px;
+
+}
+
+div{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

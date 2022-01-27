@@ -1,0 +1,29 @@
+body{
+    background-color: darkslateblue;
+}
+
+button{
+    padding: 5px;
+    background-color: azure;
+    border:turquoise solid 5px;
+    border-radius: 10px;
+    height: 150px;
+    width: 450px;
+    font-size: 100px;
+    font-weight: bolder;
+}
+
+button:hover{
+    background-color: blue;
+    color: aliceblue;
+}
+
+div{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#g{
+    height: 740px;
+}
